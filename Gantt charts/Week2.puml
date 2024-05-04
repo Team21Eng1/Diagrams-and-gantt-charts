@@ -70,6 +70,7 @@ ganttDiagram {
 [Edit main map to add library and create town map] -> [Start creating mini games for library and sports centre]
 [Create interior maps for ron cooke, cs building, accommodation, piazza & library] on {Surbhi} starts 2024-04-25 and ends 2024-04-29
 [Create interior maps for ron cooke, cs building, accommodation, piazza & library] -> [Start creating mini games for library and sports centre]
-
+[Added student class that extends entity] on {Peter} starts on 2024-04-30 and ends 2024-05-02
+[Moved some rendering methods to entity as multiple children will need them] on {Peter} starts on 2024-04-30 and ends 2024-05-05
 
 @endgantt

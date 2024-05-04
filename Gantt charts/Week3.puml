@@ -87,4 +87,5 @@ ganttDiagram {
 [Implement new maps on to main] on {Peter} starts 2024-05-03 and ends 2024-05-05
 [Start implementing streaks and leaderboard] on {Sean, Peter, Isaac} starts 2024-05-03 and ends 2024-05-10
 
+
 @endgantt
