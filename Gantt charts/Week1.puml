@@ -1,0 +1,44 @@
+@startgantt
+printscale daily zoom 5
+Label on first column and right aligned
+hide footbox
+hide ressources footbox
+
+Project starts the 19 of April 2024
+<style>
+ganttDiagram {
+	task {
+		BackGroundColor Green
+	}
+}
+</style>
+[Read new requirements for assessment 2] on {All} starts D+0
+[Method Selection and Planning] -> [Plan any changes we want to make to the game]
+[Update website with team 21 logo and fork repository] on {Peter} starts D+0
+
+
+--Documentation--
+
+<style>
+ganttDiagram {
+	task {
+		BackGroundColor Blue
+	}
+}
+</style>
+[Create First Plan Snapshot] on {Doaa} starts 2024-04-19 and ends 2024-04-26
+[Update requirements] on {Lloyd} starts 2024-04-19 and ends 2024-04-26
+[Set up Google docs from other group] on {All} starts D+0 and ends 2024-04-21
+
+--Development--
+<style>
+ganttDiagram {
+	task {
+		BackGroundColor Yellow
+	}
+}
+</style>
+[Familiarise with new group's code] on {Peter} {Sean} {Isaac} starts 2024-04-19 and ends 2024-04-26
+
+
+@endgantt
