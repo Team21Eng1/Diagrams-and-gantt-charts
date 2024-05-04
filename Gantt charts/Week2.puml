@@ -1,0 +1,75 @@
+@startgantt
+'printscale weekly with calendar date zoom 4
+weeks starts on Friday and must have at least 1 days
+hide footbox
+hide resources footbox
+Label on first column and right aligned
+
+
+Project starts the 19 of April 2024
+<style>
+ganttDiagram {
+	task {
+		BackGroundColor Green
+	}
+}
+</style>
+'Week 1
+[Read new requirements for assessment 2] on {All} starts D+0
+[Method Selection and Planning] -> [Plan any changes we want to make to the game]
+[Update website with team 21 logo and fork repository] on {Peter} starts D+0
+
+'Week 2
+[Review our feedback from assessment 1 and group 25's feedback] on {All} starts 2024-04-26 and ends 2024-04-26
+[Check for any bugs in new game and think of tests to create] on {Isaac, Peter, Sean} starts 2024-04-26 and ends 2024-04-29
+
+--Documentation and Other Tasks--
+
+<style>
+ganttDiagram {
+	task {
+		BackGroundColor Blue
+	}
+}
+</style>
+
+'Week 1
+[Create First Plan Snapshot] on {Doaa} starts 2024-04-19 and ends 2024-04-26
+[Update requirements] on {Lloyd} starts 2024-04-19 and ends 2024-04-26
+[Set up Google docs from other group] on {All} starts D+0 and ends 2024-04-21
+[Set up Google docs from other group] -> [Update requirements]
+
+'Week 2
+[Create Second Plan Snapshot] on {Doaa} starts 2024-04-26 and ends 2024-05-03
+[Update risk assessment] on {James, Lloyd, Doaa} starts 2024-04-26 and ends 2024-04-29
+[Start on change report] on {James, Lloyd, Doaa} starts 2024-04-26 and ends 2024-05-15
+[Start changing architecture class diagrams] on {Peter} starts 2024-04-29 and ends 2024-05-03
+[Add assets used to the implementation document] on {Doaa} starts 2024-05-01 and ends 2024-05-05
+[Set up Google docs from other group] -> [Update risk assessment]
+
+--Development--
+<style>
+ganttDiagram {
+	task {
+		BackGroundColor Yellow
+	}
+}
+</style>
+
+'Week 1
+[Familiarise with new group's code] on {Peter} {Sean} {Isaac} starts 2024-04-19 and ends 2024-04-26
+[Familiarise with new group's code] -> [Start creating tests]
+
+'Week 2
+[Start creating tests] on {Peter, Sean, Isaac} starts 2024-04-26 and ends 2024-05-05
+[Added getFrames function to player to get data from the more detailed sprite sheet] on {Peter} starts 2024-04-27 and ends 2024-04-29
+[Removed GameData class and instead store GameSound() and GameMusic() objects in main class] on {Peter} starts 2024-04-27 and ends 2024-04-29
+[Combined GameSound and GameObject into AudioManager and refactored code] on {Peter} starts 2024-04-27 and ends 2024-04-29
+[Start creating mini games for library and sports centre] on {Surbhi} starts 2024-05-02 and ends 2024-05-07
+[Edit main map to add library and create town map] on {Doaa} starts 2024-04-25 and ends 2024-04-29
+[Edit main map to add library and create town map] -> [Start creating mini games for library and sports centre]
+[Create interior maps for ron cooke, cs building, accommodation, piazza & library] on {Surbhi} starts 2024-04-25 and ends 2024-04-29
+[Create interior maps for ron cooke, cs building, accommodation, piazza & library] -> [Start creating mini games for library and sports centre]
+
+
+@endgantt
