@@ -85,7 +85,9 @@ ganttDiagram {
 [Complete testing] on {Sean, Isaac} starts 2024-05-03 and ends 2024-05-10
 [Implement NPCs in game] on {Peter} starts 2024-05-03 and ends 2024-05-09
 [Implement new maps on to main] on {Peter} starts 2024-05-03 and ends 2024-05-05
-[Start implementing streaks and leaderboard] on {Sean, Peter, Isaac} starts 2024-05-03 and ends 2024-05-10
+[Implement leaderboard] on {Isaac} starts 2024-05-03 and ends 2024-05-07
+[Add way to save score at the end of the game] on {Isaac} starts 2024-05-04 and ends 2024-05-08
+
 
 
 @endgantt
