@@ -14,16 +14,14 @@ ganttDiagram {
 	}
 }
 </style>
-'Week 1
+'Week 8
 [Read new requirements for assessment 2] on {All} starts D+0
 [Method Selection and Planning] -> [Plan any changes we want to make to the game]
 [Update website with team 21 logo and fork repository] on {Peter} starts D+0
 
-'Week 2
+'Week 9
 [Review our feedback from assessment 1 and group 25's feedback] on {All} starts 2024-04-26 and ends 2024-04-26
 [Check for any bugs in new game and think of tests to create] on {Isaac, Peter, Sean} starts 2024-04-26 and ends 2024-04-29
-
-'Week 3
 
 --Documentation and Other Tasks--
 
@@ -35,27 +33,19 @@ ganttDiagram {
 }
 </style>
 
-'Week 1
+'Week 8
 [Create First Plan Snapshot] on {Doaa} starts 2024-04-19 and ends 2024-04-26
 [Update requirements] on {Lloyd} starts 2024-04-19 and ends 2024-04-26
 [Set up Google docs from other group] on {All} starts D+0 and ends 2024-04-21
-[Set up Google docs from other group] on {All} starts D+0 and ends 2024-04-21
 [Set up Google docs from other group] -> [Update requirements]
-'Week 2
+
+'Week 9
 [Create Second Plan Snapshot] on {Doaa} starts 2024-04-26 and ends 2024-05-03
 [Update risk assessment] on {James, Lloyd, Doaa} starts 2024-04-26 and ends 2024-04-29
 [Start on change report] on {James, Lloyd, Doaa} starts 2024-04-26 and ends 2024-05-15
 [Start changing architecture class diagrams] on {Peter} starts 2024-04-29 and ends 2024-05-03
 [Add assets used to the implementation document] on {Doaa} starts 2024-05-01 and ends 2024-05-05
 [Set up Google docs from other group] -> [Update risk assessment]
-
-'Week 3
-[Create Third Plan Snapshot] on {Doaa} starts 2024-05-03 and requires 3 day
-[Prepare ethics documents for group members to use] on {Doaa} starts 2024-05-03 and requires 1 day
-[Architecture diagrams updated] on {Peter} starts 2024-04-30 and requires 5 days
-[Continuous integration write up] on {James and Doaa} starts 2024-05-05 and requires 7 days
-[Architecture diagrams updated] -> [Start on change report]
-[Start changing architecture class diagrams] -> [Start on change report]
 
 --Development--
 <style>
@@ -65,10 +55,12 @@ ganttDiagram {
 	}
 }
 </style>
-'Week 1
-[Familiarise with new group's code] on {Peter} {Sean} {Isaac} starts 2024-04-19 and ends 2024-04-26
 
-'Week 2
+'Week 8
+[Familiarise with new group's code] on {Peter} {Sean} {Isaac} starts 2024-04-19 and ends 2024-04-26
+[Familiarise with new group's code] -> [Start creating tests]
+
+'Week 9
 [Start creating tests] on {Peter, Sean, Isaac} starts 2024-04-26 and ends 2024-05-05
 [Added getFrames function to player to get data from the more detailed sprite sheet] on {Peter} starts 2024-04-27 and ends 2024-04-29
 [Removed GameData class and instead store GameSound() and GameMusic() objects in main class] on {Peter} starts 2024-04-27 and ends 2024-04-29
@@ -78,17 +70,7 @@ ganttDiagram {
 [Edit main map to add library and create town map] -> [Start creating mini games for library and sports centre]
 [Create interior maps for ron cooke, cs building, accommodation, piazza & library] on {Surbhi} starts 2024-04-25 and ends 2024-04-29
 [Create interior maps for ron cooke, cs building, accommodation, piazza & library] -> [Start creating mini games for library and sports centre]
-[Create interior maps for ron cooke, cs building, accommodation, piazza & library] -> [Implement new maps on to main]
-[Edit main map to add library and create town map] -> [Implement new maps on to main]
-
-'Week 3
-[Complete testing] on {Sean, Isaac} starts 2024-05-03 and ends 2024-05-10
-[Implement NPCs in game] on {Peter} starts 2024-05-03 and ends 2024-05-09
-[Implement new maps on to main] on {Peter} starts 2024-05-03 and ends 2024-05-05
-[Implement leaderboard] on {Isaac} starts 2024-05-03 and ends 2024-05-07
-[Add way to save score at the end of the game] on {Isaac} starts 2024-05-04 and ends 2024-05-08
-[Implemented streaks, need to display it] on {Sean} starts 2024-05-02 and ends 2024-05-13
-
-
+[Added student class that extends entity] on {Peter} starts on 2024-04-30 and ends 2024-05-02
+[Moved some rendering methods to entity as multiple children will need them] on {Peter} starts on 2024-04-30 and ends 2024-05-05
 
 @endgantt
