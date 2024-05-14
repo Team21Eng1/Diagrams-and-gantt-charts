@@ -91,13 +91,15 @@ ganttDiagram {
 [Complete testing] on {Sean, Isaac} starts 2024-05-03 and ends 2024-05-10
 [Implement NPCs in game] on {Peter} starts 2024-05-03 and ends 2024-05-09
 [Implement new maps on to main] on {Peter} starts 2024-05-03 and ends 2024-05-05
-[Implement leaderboard] on {Isaac} starts 2024-05-03 and ends 2024-05-07
+[added LeaderboardScreen Class with ‘Score’ button on menu screen and end screen, displays top 10 scores from leaderboard.csv] on {Isaac} starts 2024-05-03 and ends 2024-05-07
 [Add way to save score at the end of the game] on {Isaac} starts 2024-05-04 and ends 2024-05-08
-[Implemented streaks, need to display it] on {Sean} starts 2024-05-02 and ends 2024-05-13
-[Implement leaderboard] -> [Add way to save score at the end of the game] 
+[Implemented streaks, need to display it] on {Sean} starts 2024-05-10 and ends 2024-05-13
+[added LeaderboardScreen Class with ‘Score’ button on menu screen and end screen, displays top 10 scores from leaderboard.csv] -> [Add way to save score at the end of the game]
 
 'Week 11
 [Implement testing workflow] on {Doaa} starts 2024-05-10 and ends 2024-05-11
 [Merge leaderboard, score branches] on {Peter} starts 2024-05-11 and requires 4 days
 [Create label for buttons] on {James} starts 2024-05-12 and requires 1 day
+[+added SaveScreen Class with ‘Save’ button that appears at the end of the game, asks for username and saves score to leaderboard.csv] on {Isaac} starts 2024-05-12 and ends 2024-05-14
+[added LeaderboardScreen Class with ‘Score’ button on menu screen and end screen, displays top 10 scores from leaderboard.csv] -> [+added SaveScreen Class with ‘Save’ button that appears at the end of the game, asks for username and saves score to leaderboard.csv]
 @endgantt
