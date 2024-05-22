@@ -53,15 +53,13 @@ ganttDiagram {
 [Create Third Plan Snapshot] on {Doaa} starts 2024-05-03 and requires 3 day
 [Prepare ethics documents for group members to use] on {Doaa} starts 2024-05-03 and requires 1 day
 [Architecture diagrams updated] on {Peter} starts 2024-04-30 and requires 5 days
-[Continuous integration write up] on {James and Doaa} starts 2024-05-05 and requires 7 days
+[Continuous integration write up] on {Doaa} starts 2024-05-05 and requires 4 days
 [Architecture diagrams updated] -> [Start on change report]
 [Start changing architecture class diagrams] -> [Start on change report]
 
 'Week 11
-[Complete Continuous itegration document] on {Doaa} starts 2024-05-10 and requires 4 days
 [Add to architecture document on change report] on {Surbhi. Lloyd, James} starts 2024-05-11 and requires 5 days
 [Create Fourth Plan Snapshot] on {Doaa} starts 2024-05-10 and ends 2024-05-17
-[Add to the change report] on {Doaa} starts 2024-05-13 and ends 2024-05-14
 
 --Development--
 <style>

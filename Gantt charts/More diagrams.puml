@@ -1,0 +1,25 @@
+@startuml
+actor Student
+participant "Typing Game"
+
+Student -> "Typing Game" : Start Game
+activate "Typing Game"
+
+"Typing Game" -> "Typing Game" : Generate Number
+"Typing Game" --> Student : Display Number
+
+loop Each Memorization Attempt
+    Student -> "Typing Game" : Enter Guess
+    "Typing Game" -> "Typing Game" : Check Guess
+
+    alt Correct Guess
+        "Typing Game" --> Student : Display "Correct!"
+    else Incorrect Guess
+        "Typing Game" --> Student : Display "Try Again"
+    end
+end
+
+"Typing Game" --> Student : End Game
+deactivate "Typing Game"
+
+@enduml

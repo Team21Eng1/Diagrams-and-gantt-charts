@@ -25,6 +25,9 @@ ganttDiagram {
 
 'Week 10
 
+'Week 11
+
+'Week 12
 --Documentation and Other Tasks--
 
 <style>
@@ -53,9 +56,23 @@ ganttDiagram {
 [Create Third Plan Snapshot] on {Doaa} starts 2024-05-03 and requires 3 day
 [Prepare ethics documents for group members to use] on {Doaa} starts 2024-05-03 and requires 1 day
 [Architecture diagrams updated] on {Peter} starts 2024-04-30 and requires 5 days
-[Continuous integration write up] on {Doaa} starts 2024-05-05 and requires 7 days
+[Continuous integration write up] on {Doaa} starts 2024-05-05 and requires 4 days
 [Architecture diagrams updated] -> [Start on change report]
 [Start changing architecture class diagrams] -> [Start on change report]
+
+'Week 11
+[Add to architecture document on change report] on {Surbhi. Lloyd, James} starts 2024-05-11 and requires 5 days
+[Create Fourth Plan Snapshot] on {Doaa} starts 2024-05-10 and ends 2024-05-17
+
+
+'Week 12
+[Create Fifth Plan Snapshot] on {Doaa} starts 2024-05-17 and ends 2024-05-22
+[Complete testing document] on {Sean} starts 2024-05-18 and ends 2024-05-22
+[User evaluation write up] on {James, Lloyd} starts 2024-05-19 and ends 2024-05-22
+[Update website with new deliverables] on {James} starts 2024-05-16 and ends 2024-05-23
+[Update final architecture diagrams and change report] on {Lloyd} starts 2024-05-20 and ends 2024-05-24
+[Create powerpoint presentation] on {All} starts 2024-05-22 and ends 2024-05-23
+[Architecture diagrams updated] -> [Update final architecture diagrams and change report]
 
 --Development--
 <style>
@@ -81,12 +98,27 @@ ganttDiagram {
 [Create interior maps for ron cooke, cs building, accommodation, piazza & library] -> [Implement new maps on to main]
 [Edit main map to add library and create town map] -> [Implement new maps on to main]
 
+
 'Week 10
 [Complete testing] on {Sean, Isaac} starts 2024-05-03 and ends 2024-05-10
 [Implement NPCs in game] on {Peter} starts 2024-05-03 and ends 2024-05-09
 [Implement new maps on to main] on {Peter} starts 2024-05-03 and ends 2024-05-05
-[Implement leaderboard] on {Isaac} starts 2024-05-03 and ends 2024-05-07
+[added LeaderboardScreen Class with ‘Score’ button on menu screen and end screen, displays top 10 scores from leaderboard.csv] on {Isaac} starts 2024-05-03 and ends 2024-05-07
 [Add way to save score at the end of the game] on {Isaac} starts 2024-05-04 and ends 2024-05-08
-[Implemented streaks, need to display it] on {Sean} starts 2024-05-02 and ends 2024-05-13
+[Implemented streaks, need to display it] on {Sean} starts 2024-05-10 and ends 2024-05-13
+[added LeaderboardScreen Class with ‘Score’ button on menu screen and end screen, displays top 10 scores from leaderboard.csv] -> [Add way to save score at the end of the game]
 
+'Week 11
+[Implement testing workflow] on {Doaa} starts 2024-05-10 and ends 2024-05-11
+[Merge leaderboard, score branches] on {Peter} starts 2024-05-11 and requires 4 days
+[Create label for buttons] on {James} starts 2024-05-12 and requires 1 day
+[+added SaveScreen Class with ‘Save’ button that appears at the end of the game, asks for username and saves score to leaderboard.csv] on {Isaac} starts 2024-05-12 and ends 2024-05-14
+[added LeaderboardScreen Class with ‘Score’ button on menu screen and end screen, displays top 10 scores from leaderboard.csv] -> [+added SaveScreen Class with ‘Save’ button that appears at the end of the game, asks for username and saves score to leaderboard.csv]
+
+'Week 12
+[Fixed score saving using ScreenManager as a util to pass the final score & achievements thru screens] on {Isaac} starts 2024-05-17 and ends 2024-05-18
+[Added a home icon in bottom left on end screen to access] on {Isaac} starts 2024-05-17 and ends 2024-05-18
+[Added timer on minigames] on {Surbhi} starts 2024-05-21 and ends on 2024-05-22
+[Merge leaderboard and first release branch] on {Isaac, Peter} starts 2024-05-19 and ends on 2024-05-23
+[Fix score and achievements] on {Isaac, Peter} starts 2024-05-21 and ends on 2024-05-23
 @endgantt
