@@ -13,9 +13,9 @@ loop Each Memorization Attempt
     "Typing Game" -> "Typing Game" : Check Guess
 
     alt Correct Guess
-        "Typing Game" --> Student : Display "Correct!"
+        "Typing Game" --> Student : Display "Correct well done"
     else Incorrect Guess
-        "Typing Game" --> Student : Display "Try Again"
+        "Typing Game" --> Student : Display "Incorrect answer"
     end
 end
 
